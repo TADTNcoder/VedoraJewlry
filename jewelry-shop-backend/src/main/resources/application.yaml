@@ -21,7 +21,7 @@ spring:
     multipart:
       max-file-size: 10MB
       max-request-size: 20MB
-
-jwt:
-  secret: your-secret-key-very-long-and-secure
-  expiration: 86400000
+app:
+  jwt:
+    secret: VedoraJewelrySuperSecretJwtKeyForSpringBoot2026ABCDEF
+    expiration: 86400000
